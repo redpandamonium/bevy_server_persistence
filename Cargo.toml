@@ -6,3 +6,7 @@ edition = "2021"
 [dependencies]
 redis = { version = "0.24", features = ["connection-manager", "ahash", "keep-alive", "async-std-comp"] }
 bevy = "0.12"
+url = "2.5"
+uuid = "1.6"
+async-std = "1.12"
+anyhow = "1.0"
