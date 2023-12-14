@@ -3,6 +3,6 @@ name = "bevy_server_persistence"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+redis = { version = "0.24", features = ["connection-manager", "ahash", "keep-alive", "async-std-comp"] }
+bevy = "0.12"
